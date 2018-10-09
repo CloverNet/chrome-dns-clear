@@ -1,6 +1,6 @@
 {
   "name": "chrome-dns-clear",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "chrome-dnscache-clear",
   "main": "index.js",
   "dependencies": {
