@@ -57,6 +57,8 @@ google浏览器必须配置如下启动参数：
       cd "/Applications/Google Chrome.app/Contents/MacOS"
       "/Applications/Google Chrome.app/Contents/MacOS/Google.real" --enable-benchmarking --enable-net-benchmarking --remote-debugging-port=9222
    ```
+   ![键入启动参数](https://user-images.githubusercontent.com/22534950/46655908-6821ef00-cbdf-11e8-9d38-006823ce9cde.jpg)
+   
 5. `shift` + `q` 退回命令模式 `x` 保存并退出
 
 6. 添加执行权限
@@ -64,4 +66,5 @@ google浏览器必须配置如下启动参数：
    ```bash
    sudo chmod u+x "Google Chrome"
    ```
-
+   
+   ![完整效果](https://user-images.githubusercontent.com/22534950/46655909-6821ef00-cbdf-11e8-811e-2d8eaa57b46c.jpg)
