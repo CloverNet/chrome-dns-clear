@@ -2,6 +2,12 @@
 
    这是一个清理Chrome DNS 缓存组件 基于[chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)开发。
 
+## 使用
+
+```
+   npm install chrome-dns-clear
+```
+
 ## 先决条件
 
 google浏览器必须配置如下启动参数：
