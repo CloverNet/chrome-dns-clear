@@ -18,7 +18,7 @@ google浏览器必须配置如下启动参数：
 
 1. 快捷方式
 
-  ![快捷方式](https://github.com/CloverNet/chrome-DNS-clear/blob/master/img/window-chrome.jpg?raw=true)
+  ![快捷方式](https://user-images.githubusercontent.com/22534950/46649062-2fc3e600-cbca-11e8-8ef8-e87aa5e582b5.jpg)
 
   > 注意： 任务栏中的快捷方式必须重新锁定，才能生效
 
@@ -28,4 +28,4 @@ google浏览器必须配置如下启动参数：
 
    修改为： "/YOUR_CHROMEPATH/chrome.exe" *--enable-benchmarking --enable-net-benchmarking --remote-debugging-port=9222* -- "%1"
 
-  ![注册表](https://github.com/CloverNet/chrome-DNS-clear/blob/master/img/window-regedit-chrome.jpg?raw=true)
+  ![注册表](https://user-images.githubusercontent.com/22534950/46649063-305c7c80-cbca-11e8-83f4-f4bbf5cacf35.jpg)
