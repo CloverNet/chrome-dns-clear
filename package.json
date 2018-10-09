@@ -1,12 +1,13 @@
 {
   "name": "chrome-dns-clear",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "chrome-dnscache-clear",
   "main": "index.js",
   "dependencies": {
     "chrome-remote-interface": "^0.26.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/CloverNet/chrome-DNS-clear/issues"
   },
-  "homepage": "https://github.com/CloverNet/chrome-DNS-clear#readme"
+  "homepage": "https://github.com/CloverNet/chrome-DNS-clear#readme",
+  "ava": {
+    "files": [
+      "*.js",
+      "test/*.js",
+      "!**/node_modules/**/*.*"
+    ]
+  }
 }
