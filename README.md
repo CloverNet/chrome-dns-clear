@@ -65,7 +65,7 @@ google浏览器必须配置如下启动参数：
    ```
    ![键入启动参数](https://user-images.githubusercontent.com/22534950/46655908-6821ef00-cbdf-11e8-9d38-006823ce9cde.jpg)
    
-5. `shift` + `q` 退回命令模式 `x` 保存并退出
+5. `Shift`+`Q` 退回正常模式，`X` 保存并退出
 
 6. 添加执行权限
 
@@ -74,3 +74,29 @@ google浏览器必须配置如下启动参数：
    ```
    
    ![完整效果](https://user-images.githubusercontent.com/22534950/46655909-6821ef00-cbdf-11e8-811e-2d8eaa57b46c.jpg)
+   
+### 配置linux
+
+1. 打开 Chrome 启动脚本
+
+   ```
+   vim /usr/bin/google-chrome
+   ```
+   
+2. 命令行 `exec -a "$0" "$HERE/chrome"  "$@"` 之后, 追加启动参数
+
+   ```
+   exec -a "$0" "$HERE/chrome" "$@" --enable-benchmarking --enable-net-benchmarking --remote-debugging-port=9222
+   ```
+   
+3. `Shift`+`Q` 退回正常模式，`X` 保存并退出
+
+> 注意： Root账户中使用Chrome，需追加 `--no-sandbox --user-data-dir` 启动沙盒模式。 虚拟机环境下，需关闭3D加速。
+
+![完整效果](https://user-images.githubusercontent.com/22534950/46817987-b509ef00-cdb2-11e8-8388-8dd2afe79b66.PNG)
+
+## 检查配置是否成功
+
+Chrome 浏览器 键入 `chrome://version/` 
+
+![配置成功](https://user-images.githubusercontent.com/22534950/46818626-475ec280-cdb4-11e8-9870-9c552c52c33f.PNG)
